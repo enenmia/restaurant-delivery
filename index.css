@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: 'Smythe', cursive;
+    
+    width: 600px;
+    height:1161px;
+    
+} 
+.header{
+    color: whitesmoke;
+    background-image: url("images/headerpic.png");
+    padding: 40px 30px;
+    
+}
+h2,h3{
+     margin: 0;
+
+}
+h2{
+    font-size:39px
+}
+h3{
+    font-size:22.42px
+}
+.item-class{
+    position: relative;
+    display: flex;
+    border-bottom:#D2D2D2 solid 1px;
+    margin: 0 50px 0px 50px;
+    
+
+}
+.add-btn{
+    align-self: center;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+.item-pic{
+    width: 60px;
+    height: 60px;
+    align-self: center;
+    margin-right: 50px;
+
+}
+.details{
+    align-self: center;
+
+}
+.item-ingredients{
+    color:  #8B8B8B;
+    font-size: 16px;
+
+}
+.item-title{
+    font-size:22px;
+
+}
+.item-price{
+    font-size:20px;
+}
+.ttl-price{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:16px;
+    display: flex;
+    margin: 0 50px 0px 50px;
+    font-weight: bold;
+}
+.order-area{
+    font-size: 22.42px;
+    margin: 0 50px 0px 50px;
+    border-bottom:black solid 2px;
+    /* display: flex; */
+    
+}
+
+.your-order{
+    padding: 10px;
+    text-align: center;
+    font-size: 22.42px;
+}
+.complete-btn{
+    /* margin:10px; */
+    /* padding:5px 200px ; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#complete-btn{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:10px;
+    padding:15px 192px ;
+    border: none;
+    border-radius: 3px;
+    background-color: #16DB99;
+    color: white;
+}
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+.modal {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 420px;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8700px 1px #666;
+    background-color: white;
+}
+.instruction{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 47px;
+}
+input{
+    margin-left: 75px;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+#modal-btn{
+    margin-left: 74px;
+    margin-top:10px;
+    border: none;
+    padding: 10px 85px;
+    border-radius: 3px;
+    background-color: #16DB99;
+    color: white;
+}
+#ending{
+    background-color: #ECFDF5;
+    margin:20px 50px;
+    padding: 50px;
+    font-size: 24px;
+    text-align: center;
+    
+}
